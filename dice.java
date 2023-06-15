@@ -19,10 +19,10 @@ class dice{
     }
     System.out.println("Total value: "+num);
     if(num>7){
-      System.out.println("You won");
+      System.out.println(str+" won");
     }
     if(num<=7){
-      System.out.println("You lost");
+      System.out.println(str+" lost");
     }
   }
 }
